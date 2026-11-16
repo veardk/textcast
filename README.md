@@ -127,8 +127,7 @@ Open an [issue](https://github.com/veardk/textcast/issues) for bugs or ideas. Pr
 
 ## Acknowledgements
 
-- The page colours and typography follow [Kami](https://github.com/tw93/Kami) by tw93 (MIT): the warm parchment background, ink-blue accents and serif type.
-- Chinese text uses the TsangerJinKai02 (仓耳今楷) font, loaded from jsDelivr. It is free for personal use; commercial use requires a license from [tsanger.cn](https://tsanger.cn).
+The page design and colours are inspired by [Kami](https://github.com/tw93/Kami).
 
 ## License
 
