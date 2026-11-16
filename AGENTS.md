@@ -6,7 +6,7 @@ This repository is the Textcast Agent Skill. Keep this file to rules that apply 
 
 - [SKILL.md](SKILL.md) owns what an agent does when it runs the Skill: the workflow, hard rules, commands and paths.
 - [references/ir-schema.md](references/ir-schema.md) owns the `ir.json` / `enrich.json` data contract.
-- [README.md](README.md) owns what users read: install, features, requirements.
+- [README.md](README.md) owns what users read: install, features, requirements. `README.<lang>.md` are its translations (zh-CN, zh-TW, ja, ko, es, fr, de): update all of them in the same change.
 - The reading window is a separate project, [textcast-chat-axi](https://github.com/veardk/textcast-chat-axi). Its CLI help owns how to use the window; SKILL.md only says when to open it.
 - When behaviour changes, update the owner in the same change.
 
