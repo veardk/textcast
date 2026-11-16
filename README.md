@@ -6,13 +6,75 @@ Your agent does the reading and translating itself, in the conversation. The scr
 
 ## Install
 
-Put this folder where your agent looks for Skills. For Claude Code:
+Pick one route per agent. Installing the same Skill twice (for example as a plugin and with `npx skills`) gives your agent two copies.
 
-```sh
+### Any agent (recommended)
+
+```bash
+npx skills@latest add veardk/textcast -g
+```
+
+`-g` installs it for your user, so it works in every folder. Add `-a <agent>` to choose the agent up front (`claude-code`, `codex`, `cursor`, `opencode`, `windsurf`, …), or leave it out and pick from the list. To update, run `npx skills@latest update textcast`.
+
+<details>
+<summary><strong>Claude Code</strong> (plugin)</summary>
+
+```bash
+claude plugin marketplace add veardk/textcast
+claude plugin install textcast@veardk
+```
+
+To update, run `claude plugin marketplace update veardk`, then `claude plugin update textcast@veardk`.
+
+</details>
+
+<details>
+<summary><strong>Codex</strong> (plugin)</summary>
+
+```bash
+codex plugin marketplace add veardk/textcast
+codex plugin add textcast@veardk
+```
+
+Updates itself at startup.
+
+</details>
+
+<details>
+<summary><strong>GitHub Copilot</strong> (CLI and VS Code)</summary>
+
+```bash
+copilot plugin marketplace add veardk/textcast
+copilot plugin install textcast@veardk
+```
+
+In VS Code, run **Chat: Install Plugin From Source** and enter `https://github.com/veardk/textcast`.
+
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong></summary>
+
+```bash
+gemini skills install https://github.com/veardk/textcast.git
+```
+
+Run it again to update.
+
+</details>
+
+<details>
+<summary><strong>Manual</strong> (git clone)</summary>
+
+Clone the repository into your agent's skills folder. For Claude Code:
+
+```bash
 git clone https://github.com/veardk/textcast.git ~/.claude/skills/textcast
 ```
 
-Other agents that support Agent Skills (`SKILL.md`) work the same way; clone it into their skills folder. To update, run `git pull` in that folder.
+To update, run `git pull` in that folder.
+
+</details>
 
 ## Use
 

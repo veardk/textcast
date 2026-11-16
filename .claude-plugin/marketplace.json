@@ -1,0 +1,14 @@
+{
+  "name": "veardk",
+  "owner": { "name": "veardk", "url": "https://github.com/veardk" },
+  "description": "veardk's agent skills, as installable plugins.",
+  "plugins": [
+    {
+      "name": "textcast",
+      "source": "./",
+      "description": "Turn a video, subtitle file or long text into a full-text bilingual reading page with topic cards and clickable timestamps.",
+      "category": "productivity",
+      "keywords": ["transcript", "translation", "reading", "youtube", "bilibili"]
+    }
+  ]
+}

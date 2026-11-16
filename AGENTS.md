@@ -16,4 +16,5 @@ This repository is the Textcast Agent Skill. Keep this file to rules that apply 
 - Output paths are relative to the folder the Skill runs in (`./textcast/output/`), never the skill folder. Scripts create it.
 - Never commit `output/` or personal cookies and credentials.
 - Before committing, run a real ingest → publish on a short source and open the page.
+- A release bumps `version` in `.claude-plugin/plugin.json`, then tags `v<version>` and creates a GitHub Release. Plugin installs only update when that version changes.
 - Commit and PR titles follow Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`); PRs are squash-merged under their title.
