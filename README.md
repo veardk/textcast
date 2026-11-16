@@ -84,8 +84,6 @@ Ask your agent, for example:
 
 > Turn https://www.youtube.com/watch?v=… into a Textcast page in Chinese.
 
-> 把这个 PDF 做成双语精读页面。
-
 The agent fetches the source, translates it, groups it into topics, publishes the page and opens it in a reading window where you can ask about any sentence.
 
 ## Features
@@ -126,6 +124,11 @@ Local audio or video transcription is not supported yet. For such files, provide
 ## Feedback
 
 Open an [issue](https://github.com/veardk/textcast/issues) for bugs or ideas. Problems with the reading window itself belong in [textcast-chat-axi](https://github.com/veardk/textcast-chat-axi/issues).
+
+## Acknowledgements
+
+- The page colours and typography follow [Kami](https://github.com/tw93/Kami) by tw93 (MIT): the warm parchment background, ink-blue accents and serif type.
+- Chinese text uses the TsangerJinKai02 (仓耳今楷) font, loaded from jsDelivr. It is free for personal use; commercial use requires a license from [tsanger.cn](https://tsanger.cn).
 
 ## License
 
