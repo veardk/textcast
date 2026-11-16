@@ -2,10 +2,23 @@
   "name": "textcast",
   "version": "0.1.1",
   "description": "Turn a video, subtitle file or long text into a full-text bilingual reading page with topic cards and clickable timestamps.",
-  "author": { "name": "veardk", "url": "https://github.com/veardk" },
+  "author": {
+    "name": "veardk",
+    "url": "https://github.com/veardk"
+  },
   "homepage": "https://github.com/veardk/textcast",
   "repository": "https://github.com/veardk/textcast",
   "license": "MIT",
-  "keywords": ["transcript", "translation", "reading", "youtube", "bilibili", "subtitles"],
-  "skills": ["./"]
+  "keywords": [
+    "transcript",
+    "translation",
+    "reading",
+    "youtube",
+    "bilibili",
+    "subtitles"
+  ],
+  "skills": [
+    "./"
+  ],
+  "icon": "./assets/icon.png"
 }

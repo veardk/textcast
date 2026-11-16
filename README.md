@@ -1,4 +1,14 @@
-# Textcast
+<div align="center">
+  <img src="assets/icon.png" alt="Textcast" width="120">
+  <h1>Textcast</h1>
+  <p>Turn any video, subtitle file or long text into a full-text bilingual reading page.</p>
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/veardk/textcast?style=flat-square" alt="License"></a>
+    <a href="https://github.com/veardk/textcast/releases"><img src="https://img.shields.io/github/v/release/veardk/textcast?style=flat-square" alt="Release"></a>
+    <a href="https://github.com/veardk/textcast/stargazers"><img src="https://img.shields.io/github/stars/veardk/textcast?style=flat-square" alt="Stars"></a>
+    <a href="#install"><img src="https://img.shields.io/badge/Agent-Skill-1B365D?style=flat-square" alt="Agent Skill"></a>
+  </p>
+</div>
 
 An Agent Skill that turns a video, a subtitle file or a long text into a self-contained HTML reading page: every original line in order, with a translation beside it, topic cards with analysis, and timestamps that play the video from the line you click.
 
