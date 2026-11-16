@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/icon.png" alt="Textcast" width="120">
   <h1>Textcast</h1>
-  <p>Turn any video, subtitle file or long text into a full-text bilingual reading page.</p>
+  <p>Read podcasts and videos instead of watching them, and talk with your agent while you read.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/veardk/textcast?style=flat-square" alt="License"></a>
     <a href="https://github.com/veardk/textcast/releases"><img src="https://img.shields.io/github/v/release/veardk/textcast?style=flat-square" alt="Release"></a>
@@ -10,9 +10,11 @@
   </p>
 </div>
 
-An Agent Skill that turns a video, a subtitle file or a long text into a self-contained HTML reading page: every original line in order, with a translation beside it, topic cards with analysis, and timestamps that play the video from the line you click.
+Textcast turns a podcast or video into text you can actually read: the full transcript, translated into your language, organised into topics with analysis, in one reading page. You read at your own pace instead of scrubbing through an hour of audio.
 
-Your agent does the reading and translating itself, in the conversation. The scripts handle everything deterministic: fetching captions, segmenting, timing, coverage checks and rendering. Nothing is summarised away: the page always keeps the full original text.
+The page is live. It opens in a reading window with your agent beside it: select any sentence to ask about it, or ask for a change, and the agent answers and updates the page while you read. Click any line and the video plays from that moment in a small floating player, so you can always hear how it was said.
+
+Long articles and documents work too. Textcast is an Agent Skill: your agent does the reading and translating itself, and the scripts handle captions, timing and checks, so no line is ever summarised away.
 
 ## Install
 
@@ -98,15 +100,14 @@ The agent fetches the source, translates it, groups it into topics, publishes th
 
 ## Features
 
-- **Sources**: YouTube and Bilibili links, subtitle files (`.srt`, `.vtt`, `.json`), and text documents (`.md`, `.txt`, or text the agent extracts from a PDF or web page).
-- **Full text, in order**: every original segment appears on the page, in chronological order. An audit step checks completeness and translation coverage before publishing.
-- **Original / translation / bilingual** reading modes, with hover highlighting between a sentence and its translation.
-- **Topic cards** with the agent's analysis, collapsible, each followed by the full original text.
-- **Verified timestamps**: times come from the captions only. Clicking a line plays the video from there.
-- **Summary page** (optional), linked from the transcript page.
-- **A library**: pages are grouped into categories, with an index page listing them all.
-- **Themes and languages**: light, dark and sepia themes; page labels in 17 languages, with a right-to-left layout for Arabic.
-- **Reading window**: after publishing, the page opens in [textcast-chat-axi](https://github.com/veardk/textcast-chat-axi), a local window with a conversation panel and a floating video player. Select any text to ask the agent about it or request a change.
+- **Read instead of watch**: the full transcript of a YouTube or Bilibili podcast or video, every line in order, nothing left out.
+- **In your language**: original, translation or side-by-side bilingual reading, translated by your agent.
+- **Talk while you read**: the page opens in a reading window ([textcast-chat-axi](https://github.com/veardk/textcast-chat-axi)) with a live conversation panel. Select any text to ask your agent about it, or ask for a change, and the page updates in place.
+- **Floating video player**: click any line and the video plays from that moment in a small window beside the text, so you can listen and keep reading.
+- **Topics and analysis**: the transcript is grouped into topic cards, each with the agent's explanation, plus an optional summary page.
+- **Timestamps you can trust**: every time comes from the captions, never guessed.
+- **Any long text, too**: subtitle files (`.srt`, `.vtt`, `.json`), Markdown or text, or text from a PDF or web page.
+- **Your own library**: pages are grouped into categories with an index page, in light, dark or sepia, with labels in 17 languages.
 
 ## Where the pages go
 
