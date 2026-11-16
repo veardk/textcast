@@ -1,0 +1,9 @@
+# Generated reading pages (the Skill writes them to ./textcast/output/ where it runs)
+output/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

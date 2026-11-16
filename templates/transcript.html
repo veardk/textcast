@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+  Textcast · 逐句全文页模板（模式 1）
+  直接用浏览器打开即可预览版式；scripts/tc_render.py 用真实数据填充后生成最终页面。
+  模板语法（取值占位、@each 循环、@if 条件、@sample 预览示例）见 scripts/tc_template.py 顶部说明。
+-->
+<html lang="{{html_lang|zh-CN}}" dir="{{html_dir|ltr}}">
+<head>
+<meta charset="utf-8">
+<title>{{page_title|我在动物园：YouTube 上的第一支视频}}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{page_description}}">
+<meta name="generator" content="Textcast">
+<script src="theme-init.js"></script>
+<link rel="stylesheet" href="base.css">
+</head>
+<body class="{{body_class|mode-bi has-player}}">
+<div class="page">
+
+<header class="hero">
+  <div class="eyebrow">
+    <span>{{eyebrow|YouTube · jawed · 2005-04-24}}</span>
+    <div class="eyebrow-tools">
+      <!-- @if has_nav -->
+      <nav class="page-nav" aria-label="{{nav_label|页面切换}}">
+        <!-- @if index_href --><a href="{{index_href|#}}" class="nav-index">{{nav_index|索引}}</a><!-- @end index_href -->
+        <!-- @each page_links --><a href="{{href|#}}" aria-current="{{current|page}}">{{label|逐句全文}}</a><!-- @end page_links -->
+        <!-- @sample --><a href="#" aria-current="false">总结分析</a><!-- @end sample -->
+      </nav>
+      <!-- @end has_nav -->
+      <!-- @if origin_href --><a href="{{origin_href|#}}" target="_blank" rel="noopener noreferrer">{{origin_label|原始链接 ↗}}</a><!-- @end origin_href -->
+      <div class="theme-switch" role="group" aria-label="{{theme_label|配色}}" data-labels="{{theme_labels|浅色|暗色|护眼}}"></div>
+    </div>
+  </div>
+  <h1 lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">{{title|我在动物园：YouTube 上的第一支视频}}</h1>
+  <p class="tagline" lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">{{tagline|19 秒、一头大象，和互联网视频时代的开端。}}</p>
+  <div class="hero-tokens">
+    <!-- @each tokens --><span><b>{{label|来源}}{{colon|：}}</b><!-- @if badge --><span class="badge-auto">{{value|人工字幕}}</span><!-- @end badge --><!-- @if !badge -->{{value}}<!-- @end badge --></span><!-- @end tokens -->
+    <!-- @sample --><span><b>时长：</b>19s</span><span><b>语言：</b>English → 简体中文</span><!-- @end sample -->
+  </div>
+  <div class="hero-cta">
+    <!-- @each ctas --><a class="{{cls|btn-primary}}" href="{{href|#toc}}" target="{{target}}" rel="{{rel}}">{{label|浏览主题大纲}}</a><!-- @end ctas -->
+    <!-- @sample --><a class="btn-ghost" href="#">查看总结分析</a><!-- @end sample -->
+  </div>
+</header>
+
+<section class="toc-section" id="toc">
+  <h2 class="section-title">{{toc_title|主题索引}}</h2>
+  <div class="toc-card"><ul class="toc">
+    <!-- @each topics -->
+    <li><a href="#topic-{{num|1}}"><span class="toc-num">{{num_label|01}}</span><span lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">{{title|大象面前的开场}}</span></a><span class="toc-time">{{span|00:01 – 00:07}}</span></li>
+    <!-- @end topics -->
+    <!-- @sample --><li><a href="#"><span class="toc-num">02</span><span>长鼻子，以及就这些了</span></a><span class="toc-time">00:07 – 00:18</span></li><!-- @end sample -->
+  </ul></div>
+</section>
+
+<div class="tools-bar">
+  <span class="tools-count">{{count|共 2 个主题 · 4 句}}</span>
+  <!-- @if translated -->
+  <div class="mode-switch" role="group" aria-label="{{mode_label|阅读模式}}">
+    <!-- @each modes --><button type="button" class="mode-btn" data-mode="{{mode|src}}" aria-pressed="false">{{label|原文 · English}}</button><!-- @end modes -->
+    <!-- @sample --><button type="button" class="mode-btn" data-mode="tgt" aria-pressed="false">译文 · 简体中文</button><button type="button" class="mode-btn" data-mode="bi" aria-pressed="true">双语对照</button><!-- @end sample -->
+  </div>
+  <!-- @end translated -->
+  <div class="tools-buttons"><button type="button" id="btn-expand-all">{{expand_all|展开全部}}</button><button type="button" id="btn-collapse-all">{{collapse_all|收起全部}}</button></div>
+</div>
+
+<main class="topics-container">
+  <!-- @each topics -->
+  <details class="topic" id="topic-{{num|1}}" open>
+    <summary class="topic-head">
+      <div class="topic-header-meta"><span class="section-num">{{num_label|01}}</span><span class="time-range">{{span|00:01 – 00:07}}</span></div>
+      <h2 class="topic-title" lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">{{title|大象面前的开场}}</h2>
+      <p class="topic-brief" lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">{{brief|镜头对准象群，讲述者先交代地点。}}</p>
+      <span class="toggle" data-open="{{toggle_open|收起}}" data-closed="{{toggle_closed|展开}}" aria-hidden="true"></span>
+    </summary>
+    <div class="topic-body">
+      <div class="analysis">
+        <span class="section-badge">{{analysis_label|详细解读}}</span>
+        <div class="analysis-text" lang="{{content_lang|zh-CN}}" dir="{{content_dir|ltr}}">
+          <!-- @each analysis --><p>{{text_html|开场一句话就完成了<strong>场景设定</strong>：地点、对象、讲述者的位置。}}</p><!-- @end analysis -->
+        </div>
+      </div>
+      <span class="section-badge">{{original_label|原文逐句}}</span>
+      <div class="reading">
+        <!-- @each flows -->
+        <div class="flow flow-{{mode|bi}}">
+          <!-- @each rows -->
+          <!-- @if is_gap -->
+          <div class="time-skip {{gap_cls}}"><span class="skip-text">{{gap_label|字幕空白}} · <span class="skip-range">{{gap_from|00:06}} → {{gap_to|00:40}}</span> {{gap_span|（约 34s 无字幕）}} · <em>{{gap_note|字幕轨在此区间没有文本}}</em></span></div>
+          <!-- @end is_gap -->
+          <!-- @if is_turn -->
+          <div class="turn" style="--spk: {{color|var(--spk-0)}}"><span class="turn-dot"></span><span class="turn-name">{{speaker|Jawed}}</span></div>
+          <!-- @end is_turn -->
+          <!-- @if is_para -->
+          <div class="para">
+            <!-- @if timed -->
+            <div class="gutter"><!-- @if seekable --><button type="button" class="ts" data-seek="{{seek|1}}" title="{{play_title|从 00:01 播放}}">{{start|00:01}}</button><!-- @end seekable --><!-- @if !seekable --><span class="ts" data-preview="hide">{{start}}</span><!-- @end seekable --><span class="ts-end">{{end|00:07}}</span><span class="ts-seg" aria-hidden="true"></span></div>
+            <!-- @end timed -->
+            <!-- @if !timed --><div class="pnum" data-preview="hide">{{pnum}}</div><!-- @end timed -->
+            <!-- @each texts --><p class="{{cls|txt cjk}}" lang="{{lang|zh-CN}}"><!-- @each segs -->{{sep}}<span class="seg" id="{{uid|seg0-tgt-bi}}" data-seg="{{id|0}}" data-t="{{t|00:01–00:05}}">{{text|好了，我们现在在大象前面，}}</span><!-- @end segs --><!-- @sample --><span class="seg" data-seg="1" data-t="00:05–00:07">这些家伙最酷的地方在于，它们有着非常……</span><!-- @end sample --></p><!-- @end texts -->
+            <!-- @sample --><p class="txt latin second" lang="en"><span class="seg" data-seg="0" data-t="00:01–00:05">All right, so here we are, in front of the elephants</span> <span class="seg" data-seg="1" data-t="00:05–00:07">the cool thing about these guys is that they have really...</span></p><!-- @end sample -->
+          </div>
+          <!-- @end is_para -->
+          <!-- @end rows -->
+        </div>
+        <!-- @end flows -->
+      </div>
+    </div>
+  </details>
+  <!-- @end topics -->
+</main>
+
+<footer class="provenance-section">
+  <div class="provenance-card">
+    <h3>{{prov_title|制作说明}}</h3>
+    <!-- @each prov_rows --><p><b>{{label|语料来源}}{{colon|：}}</b>{{value_html|YouTube 字幕轨 <code>en</code>（人工字幕），经 yt-dlp 获取。}}</p><!-- @end prov_rows -->
+  </div>
+  <div class="foot"><span>Generated by Textcast</span></div>
+</footer>
+
+</div>
+
+<!-- @if player -->
+<aside class="player-dock" id="player-dock" hidden><div class="player-bar"><span>{{player_now|正在播放原片}}</span><button type="button" id="player-close" aria-label="{{player_close|关闭播放器}}">×</button></div><div id="player-slot"></div></aside>
+<!-- @end player -->
+
+<script id="textcast-data" type="application/json">{"modes": ["bi", "tgt", "src"], "defaultMode": "bi", "player": {"kind": "youtube", "id": "jNQXAC9IVRw"}, "times": [[1, 5], [5, 7]]}</script>
+<script src="preview.js"></script>
+<script src="reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the documentation
+    url: https://github.com/veardk/textcast#readme
+    about: Read the README before opening a usage question.
+  - name: Reading window issues
+    url: https://github.com/veardk/textcast-chat-axi/issues
+    about: Problems with the reading window (conversation panel, video player) belong in textcast-chat-axi.

@@ -1,0 +1,54 @@
+name: Bug report
+description: Something went wrong while using the Textcast Skill
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: What you expected and what actually happened.
+      placeholder: I asked my agent to turn a YouTube link into a Textcast page, and ingest failed with…
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: The source (link or file type), the target language and mode, and the step that failed.
+      placeholder: |
+        1. Source: https://www.youtube.com/watch?v=…
+        2. Target language: zh-CN, mode: transcript
+        3. Failed at: ingest / audit / publish / open
+    validations:
+      required: true
+
+  - type: input
+    id: agent
+    attributes:
+      label: Agent
+      description: Which agent ran the Skill.
+      placeholder: "Claude Code 2.x / Codex / …"
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: OS, Python and Node version
+      placeholder: "macOS 15 / Python 3.12 / Node v24"
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Script output
+      description: Paste the error or the relevant output of `scripts/textcast.py`.
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, related issues, whatever seems relevant.
