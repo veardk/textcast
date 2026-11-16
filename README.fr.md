@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/icon.png" alt="Textcast" width="120">
   <h1>Textcast</h1>
-  <p>Lisez les podcasts et les vidéos au lieu de les regarder, et parlez à votre agent pendant votre lecture.</p>
+  <p><strong>Lisez les podcasts et les vidéos au lieu de les regarder, et parlez à votre agent pendant votre lecture.</strong></p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/veardk/textcast?style=flat-square" alt="License"></a>
     <a href="https://github.com/veardk/textcast/releases"><img src="https://img.shields.io/github/v/release/veardk/textcast?style=flat-square" alt="Release"></a>

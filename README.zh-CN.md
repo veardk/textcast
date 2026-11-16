@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/icon.png" alt="Textcast" width="120">
   <h1>Textcast</h1>
-  <p>把播客和视频变成可以读的文字，边读边和你的 agent 对话。</p>
+  <p><strong>把播客和视频变成可以读的文字，边读边和你的 agent 对话。</strong></p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/veardk/textcast?style=flat-square" alt="License"></a>
     <a href="https://github.com/veardk/textcast/releases"><img src="https://img.shields.io/github/v/release/veardk/textcast?style=flat-square" alt="Release"></a>

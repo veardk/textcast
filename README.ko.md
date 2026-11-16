@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/icon.png" alt="Textcast" width="120">
   <h1>Textcast</h1>
-  <p>팟캐스트와 동영상을 보는 대신 읽고, 읽으면서 에이전트와 대화하세요.</p>
+  <p><strong>팟캐스트와 동영상을 보는 대신 읽고, 읽으면서 에이전트와 대화하세요.</strong></p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/veardk/textcast?style=flat-square" alt="License"></a>
     <a href="https://github.com/veardk/textcast/releases"><img src="https://img.shields.io/github/v/release/veardk/textcast?style=flat-square" alt="Release"></a>
