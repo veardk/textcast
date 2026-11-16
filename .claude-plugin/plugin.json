@@ -1,6 +1,6 @@
 {
   "name": "textcast",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turn a video, subtitle file or long text into a full-text bilingual reading page with topic cards and clickable timestamps.",
   "author": {
     "name": "veardk",
