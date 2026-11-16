@@ -18,7 +18,7 @@
     "subtitles"
   ],
   "skills": [
-    "./"
+    "./skills/textcast"
   ],
   "icon": "./assets/icon.png"
 }

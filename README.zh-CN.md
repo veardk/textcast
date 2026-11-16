@@ -69,7 +69,7 @@ copilot plugin install textcast@veardk
 <summary><strong>Gemini CLI</strong></summary>
 
 ```bash
-gemini skills install https://github.com/veardk/textcast.git
+gemini skills install https://github.com/veardk/textcast.git --path skills/textcast
 ```
 
 再运行一次即可更新。
@@ -79,13 +79,14 @@ gemini skills install https://github.com/veardk/textcast.git
 <details>
 <summary><strong>手动安装</strong>（git clone）</summary>
 
-把仓库克隆到 agent 的 skills 文件夹。以 Claude Code 为例：
+克隆仓库，再把其中的 Skill 文件夹复制到 agent 的 skills 文件夹。以 Claude Code 为例：
 
 ```bash
-git clone https://github.com/veardk/textcast.git ~/.claude/skills/textcast
+git clone https://github.com/veardk/textcast.git
+cp -R textcast/skills/textcast ~/.claude/skills/
 ```
 
-更新时在该文件夹里运行 `git pull`。
+更新时重新拉取并复制一次。
 
 </details>
 

@@ -69,7 +69,7 @@ VS Code では **Chat: Install Plugin From Source** を実行し、`https://gith
 <summary><strong>Gemini CLI</strong></summary>
 
 ```bash
-gemini skills install https://github.com/veardk/textcast.git
+gemini skills install https://github.com/veardk/textcast.git --path skills/textcast
 ```
 
 もう一度実行すると更新されます。
@@ -79,13 +79,14 @@ gemini skills install https://github.com/veardk/textcast.git
 <details>
 <summary><strong>手動</strong>（git clone）</summary>
 
-リポジトリをエージェントの skills フォルダにクローンします。Claude Code の場合：
+リポジトリをクローンし、中の Skill フォルダをエージェントの skills フォルダにコピーします。Claude Code の場合：
 
 ```bash
-git clone https://github.com/veardk/textcast.git ~/.claude/skills/textcast
+git clone https://github.com/veardk/textcast.git
+cp -R textcast/skills/textcast ~/.claude/skills/
 ```
 
-更新はそのフォルダで `git pull` を実行します。
+更新するには、もう一度 pull してコピーします。
 
 </details>
 

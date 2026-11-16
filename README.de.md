@@ -69,7 +69,7 @@ In VS Code **Chat: Install Plugin From Source** ausführen und `https://github.c
 <summary><strong>Gemini CLI</strong></summary>
 
 ```bash
-gemini skills install https://github.com/veardk/textcast.git
+gemini skills install https://github.com/veardk/textcast.git --path skills/textcast
 ```
 
 Zum Aktualisieren erneut ausführen.
@@ -79,13 +79,14 @@ Zum Aktualisieren erneut ausführen.
 <details>
 <summary><strong>Manuell</strong> (git clone)</summary>
 
-Klone das Repository in den Skills-Ordner deines Agenten. Für Claude Code:
+Klone das Repository und kopiere den Skill-Ordner in den Skills-Ordner deines Agenten. Für Claude Code:
 
 ```bash
-git clone https://github.com/veardk/textcast.git ~/.claude/skills/textcast
+git clone https://github.com/veardk/textcast.git
+cp -R textcast/skills/textcast ~/.claude/skills/
 ```
 
-Zum Aktualisieren in diesem Ordner `git pull` ausführen.
+Zum Aktualisieren erneut pullen und kopieren.
 
 </details>
 

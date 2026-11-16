@@ -69,7 +69,7 @@ VS Code에서는 **Chat: Install Plugin From Source**를 실행하고 `https://g
 <summary><strong>Gemini CLI</strong></summary>
 
 ```bash
-gemini skills install https://github.com/veardk/textcast.git
+gemini skills install https://github.com/veardk/textcast.git --path skills/textcast
 ```
 
 다시 실행하면 업데이트됩니다.
@@ -79,13 +79,14 @@ gemini skills install https://github.com/veardk/textcast.git
 <details>
 <summary><strong>수동 설치</strong> (git clone)</summary>
 
-저장소를 에이전트의 skills 폴더에 클론하세요. Claude Code의 경우:
+저장소를 클론한 뒤 그 안의 Skill 폴더를 에이전트의 skills 폴더에 복사하세요. Claude Code의 경우:
 
 ```bash
-git clone https://github.com/veardk/textcast.git ~/.claude/skills/textcast
+git clone https://github.com/veardk/textcast.git
+cp -R textcast/skills/textcast ~/.claude/skills/
 ```
 
-업데이트는 그 폴더에서 `git pull`을 실행하세요.
+업데이트하려면 다시 pull한 뒤 복사하세요.
 
 </details>
 
