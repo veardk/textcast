@@ -80,6 +80,8 @@ To update, run `git pull` in that folder.
 
 Ask your agent, for example:
 
+> /textcast https://www.youtube.com/watch?v=…
+
 > Turn https://www.youtube.com/watch?v=… into a Textcast page in Chinese.
 
 > 把这个 PDF 做成双语精读页面。
