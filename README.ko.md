@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <strong>한국어</strong> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.png" alt="Textcast 읽기 페이지: 가운데 주제 색인, 오른쪽 에이전트 대화 패널" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.png" alt="이중 언어 보기: 원문과 번역을 나란히, 왼쪽 아래 플로팅 플레이어에서 영상 재생" width="432"> <img src="assets/screenshot-library.png" alt="색인 페이지: 페이지를 카테고리별로 묶은 목록" width="432">
+</p>
+
 Textcast는 팟캐스트나 동영상을 제대로 읽을 수 있는 글로 바꿔 줍니다. 전체 스크립트를 내 언어로 번역하고, 주제별로 정리해 해설을 붙여 하나의 읽기 페이지에 담습니다. 한 시간짜리 오디오를 앞뒤로 넘겨 가며 찾는 대신, 내 속도대로 읽으면 됩니다.
 
 페이지는 살아 있습니다. 읽기 창에서 열리고 바로 옆에 에이전트가 있습니다. 아무 문장이나 선택해 질문하거나 수정을 요청하면, 에이전트가 답하고 읽는 동안 페이지를 바로 고칩니다. 아무 줄이나 클릭하면 작은 플로팅 플레이어에서 그 순간부터 동영상이 재생되어, 원래 어떻게 말했는지 언제든 들어 볼 수 있습니다.

@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <strong>日本語</strong> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.png" alt="Textcast の閲覧ページ：中央にトピック索引、右側にエージェントの会話パネル" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.png" alt="バイリンガル表示：原文と訳文を並べ、左下のフローティングプレーヤーで動画を再生" width="432"> <img src="assets/screenshot-library.png" alt="索引ページ：ページをカテゴリごとにまとめた一覧" width="432">
+</p>
+
 Textcast は、ポッドキャストや動画を本当に読めるテキストに変えます。全文の書き起こしをあなたの言語に翻訳し、トピックごとに整理して解説を添え、ひとつの閲覧ページにまとめます。1 時間の音声をシークバーで行き来する代わりに、自分のペースで読めます。
 
 ページは生きています。閲覧ウィンドウで開き、すぐ横にエージェントがいます。どの文でも選択すれば質問でき、修正も頼めます。エージェントは答え、読んでいる最中にページを更新します。どの行をクリックしても、その瞬間から小さなフローティングプレーヤーで動画が再生されるので、実際の話し方をいつでも確かめられます。

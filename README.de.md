@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <strong>Deutsch</strong></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.png" alt="Eine Textcast-Leseseite: Themenindex in der Mitte, Gesprächsbereich des Agenten rechts" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.png" alt="Zweisprachige Ansicht: Original neben der Übersetzung, das Video im schwebenden Player" width="432"> <img src="assets/screenshot-library.png" alt="Die Übersichtsseite mit den Seiten nach Kategorie gruppiert" width="432">
+</p>
+
 Textcast macht aus einem Podcast oder Video einen Text, den man wirklich lesen kann: das vollständige Transkript, in deine Sprache übersetzt, nach Themen gegliedert und mit Analyse, auf einer einzigen Leseseite. Du liest in deinem eigenen Tempo, statt dich durch eine Stunde Audio zu spulen.
 
 Die Seite ist lebendig. Sie öffnet sich in einem Lesefenster, dein Agent direkt daneben: Markiere einen beliebigen Satz, um danach zu fragen oder eine Änderung zu wünschen, und der Agent antwortet und aktualisiert die Seite, während du liest. Klicke auf eine beliebige Zeile, und das Video spielt ab genau diesem Moment in einem kleinen schwebenden Player – so hörst du jederzeit, wie es gesagt wurde.

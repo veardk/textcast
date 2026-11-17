@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <strong>繁體中文</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.png" alt="Textcast 閱讀頁：中間是主題索引，右側是智能體對話面板" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.png" alt="雙語對照：原文與譯文並排，左下角浮窗播放影片" width="432"> <img src="assets/screenshot-library.png" alt="索引頁：所有頁面依分類分組" width="432">
+</p>
+
 Textcast 把一集 Podcast 或一部影片變成真正能讀的文字：完整的逐字稿，翻譯成你的語言，依主題整理並附上解讀，全部放在一個閱讀頁面裡。你可以照自己的節奏閱讀，不必在一小時的音訊裡來回拖曳進度條。
 
 頁面是「活」的。它會在閱讀視窗中開啟，你的 agent 就在旁邊：選取任何一句話就能提問，或請它修改，agent 會回答並在你閱讀時直接更新頁面。點擊任何一行，影片會在小視窗裡從那一刻開始播放，隨時能聽到原話是怎麼說的。

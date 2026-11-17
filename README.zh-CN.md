@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <strong>简体中文</strong> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.zh-CN.png" alt="Textcast 阅读页：中间是主题索引，右侧是智能体对话面板" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.zh-CN.png" alt="双语对照：原文与译文并排，左下角浮窗播放视频" width="432"> <img src="assets/screenshot-library.zh-CN.png" alt="索引页：所有页面按分类分组" width="432">
+</p>
+
 Textcast 把一期播客或一个视频变成真正能读的文字：完整的逐字稿，翻译成你的语言，按话题整理并附上解读，全部放在一个阅读页面里。你可以按自己的节奏读，不用在一小时的音频里来回拖进度条。
 
 页面是“活”的。它在阅读窗口中打开，你的 agent 就在旁边：选中任意一句话就能提问，或者让它修改，agent 会回答并在你阅读时直接更新页面。点击任意一行，视频会在小窗里从那一刻开始播放，随时能听到原话是怎么说的。

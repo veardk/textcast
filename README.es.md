@@ -11,6 +11,13 @@
   <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <strong>Español</strong> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a></p>
 </div>
 
+<p align="center">
+  <img src="assets/screenshot-reading.png" alt="Una página de lectura de Textcast: índice de temas en el centro y el panel de conversación del agente a la derecha" width="880">
+</p>
+<p align="center">
+  <img src="assets/screenshot-bilingual.png" alt="Modo bilingüe: el texto original junto a la traducción, con el vídeo en el reproductor flotante" width="432"> <img src="assets/screenshot-library.png" alt="La página de índice, con las páginas agrupadas por categoría" width="432">
+</p>
+
 Textcast convierte un pódcast o un vídeo en un texto que de verdad puedes leer: la transcripción completa, traducida a tu idioma, organizada por temas con análisis, en una sola página de lectura. Lees a tu ritmo en lugar de ir y venir por una hora de audio.
 
 La página está viva. Se abre en una ventana de lectura con tu agente al lado: selecciona cualquier frase para preguntar por ella o pedir un cambio, y el agente responde y actualiza la página mientras lees. Haz clic en cualquier línea y el vídeo se reproduce desde ese momento en un pequeño reproductor flotante, para que siempre puedas oír cómo se dijo.
