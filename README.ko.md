@@ -14,9 +14,12 @@
 <p align="center">
   <img src="assets/screenshot-reading.png" alt="Textcast 읽기 페이지: 가운데 주제 색인, 오른쪽 에이전트 대화 패널" width="880">
 </p>
-<p align="center">
-  <img src="assets/screenshot-bilingual.png" alt="이중 언어 보기: 원문과 번역을 나란히, 왼쪽 아래 플로팅 플레이어에서 영상 재생" width="432"> <img src="assets/screenshot-library.png" alt="색인 페이지: 페이지를 카테고리별로 묶은 목록" width="432">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/screenshot-bilingual.png" alt="이중 언어 보기: 원문과 번역을 나란히, 왼쪽 아래 플로팅 플레이어에서 영상 재생" width="428"></td>
+    <td align="center"><img src="assets/screenshot-library.png" alt="색인 페이지: 페이지를 카테고리별로 묶은 목록" width="428"></td>
+  </tr>
+</table>
 
 Textcast는 팟캐스트나 동영상을 제대로 읽을 수 있는 글로 바꿔 줍니다. 전체 스크립트를 내 언어로 번역하고, 주제별로 정리해 해설을 붙여 하나의 읽기 페이지에 담습니다. 한 시간짜리 오디오를 앞뒤로 넘겨 가며 찾는 대신, 내 속도대로 읽으면 됩니다.
 

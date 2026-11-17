@@ -14,9 +14,12 @@
 <p align="center">
   <img src="assets/screenshot-reading.png" alt="Una página de lectura de Textcast: índice de temas en el centro y el panel de conversación del agente a la derecha" width="880">
 </p>
-<p align="center">
-  <img src="assets/screenshot-bilingual.png" alt="Modo bilingüe: el texto original junto a la traducción, con el vídeo en el reproductor flotante" width="432"> <img src="assets/screenshot-library.png" alt="La página de índice, con las páginas agrupadas por categoría" width="432">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/screenshot-bilingual.png" alt="Modo bilingüe: el texto original junto a la traducción, con el vídeo en el reproductor flotante" width="428"></td>
+    <td align="center"><img src="assets/screenshot-library.png" alt="La página de índice, con las páginas agrupadas por categoría" width="428"></td>
+  </tr>
+</table>
 
 Textcast convierte un pódcast o un vídeo en un texto que de verdad puedes leer: la transcripción completa, traducida a tu idioma, organizada por temas con análisis, en una sola página de lectura. Lees a tu ritmo en lugar de ir y venir por una hora de audio.
 

@@ -14,9 +14,12 @@
 <p align="center">
   <img src="assets/screenshot-reading.png" alt="A Textcast reading page: topic index in the middle, the agent conversation panel on the right" width="880">
 </p>
-<p align="center">
-  <img src="assets/screenshot-bilingual.png" alt="Bilingual mode, the original text beside the translation, with the video playing in a floating player" width="432"> <img src="assets/screenshot-library.png" alt="The index page, with pages grouped into categories" width="432">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/screenshot-bilingual.png" alt="Bilingual mode, the original text beside the translation, with the video playing in a floating player" width="428"></td>
+    <td align="center"><img src="assets/screenshot-library.png" alt="The index page, with pages grouped into categories" width="428"></td>
+  </tr>
+</table>
 
 Textcast turns a podcast or video into text you can actually read: the full transcript, translated into your language, organised into topics with analysis, in one reading page. You read at your own pace instead of scrubbing through an hour of audio.
 

@@ -14,9 +14,12 @@
 <p align="center">
   <img src="assets/screenshot-reading.png" alt="Une page de lecture Textcast : index des thèmes au centre, panneau de conversation de l’agent à droite" width="880">
 </p>
-<p align="center">
-  <img src="assets/screenshot-bilingual.png" alt="Mode bilingue : le texte original à côté de la traduction, la vidéo dans le lecteur flottant" width="432"> <img src="assets/screenshot-library.png" alt="La page d’index, avec les pages regroupées par catégorie" width="432">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/screenshot-bilingual.png" alt="Mode bilingue : le texte original à côté de la traduction, la vidéo dans le lecteur flottant" width="428"></td>
+    <td align="center"><img src="assets/screenshot-library.png" alt="La page d’index, avec les pages regroupées par catégorie" width="428"></td>
+  </tr>
+</table>
 
 Textcast transforme un podcast ou une vidéo en un texte que l'on peut vraiment lire : la transcription complète, traduite dans votre langue, organisée par thèmes avec une analyse, dans une seule page de lecture. Vous lisez à votre rythme au lieu de naviguer dans une heure d'audio.
 
